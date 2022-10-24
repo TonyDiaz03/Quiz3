@@ -26,9 +26,6 @@ int main()
 			cost = 22.35;
 			break;
 	}
-
-
-
 	//create variables for the total, tax, tip
 	double tax, tip, total;
 
@@ -50,9 +47,8 @@ int main()
 
 	//do calculations for the total amount
 	total = cost + ((tax/100)*cost) + ((tip/100)*cost);
-	printf("Total Amount: $%.2lf", total);
-	
 
 	//print out total amount for meal
+	printf("Total Amount: $%.2lf", total);
 	return 0;
 }
